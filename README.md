@@ -7,7 +7,7 @@ It then implements a do/while loop: prompts user to input a word, makes a copy o
 After displaying the original and modified input, it asks if user wants to enter another word or quit program.
 SophieGetInput Function: Asks user to input a word, without spaces, stores it in inputWord.
 SophieMakeUpper Function: Takes user's input, creates all-uppercase version of it.
-SophieHashtag Function: Converts uppercase word so all vowels are # and consonants are ~.
+SophieHashtag Function: Converts uppercase word so all vowels are # and consonants are ~ . 
 SophieCompund Function: Concatenates original input word, all-uppercase word, and #/~ word into one string. 
 Uses strcat function to append upperWord and hashWord to inputWord, storing result in inputWord. 
 After processing, original input word, uppercase version, #/~ version, and the final concatenated result are printed.
